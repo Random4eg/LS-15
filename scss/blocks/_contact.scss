@@ -1,0 +1,55 @@
+.contact {
+  &__desc {
+    font-weight: 400;
+    color: #f3f4f6;
+    text-align: left;
+    justify-content: left;
+    margin-inline: left;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 16rem;
+    line-height: 256%;
+    color: #eab308;
+  }
+}
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 223rem;
+  margin-bottom: 96rem;
+}
+.contact-info {
+  margin-top: 56rem;
+  margin-bottom: 56rem;
+}
+.contact-form {
+  height: 352rem;
+}
+
+.field__input {
+  width: 540rem;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 256%;
+  background: #1f2937;
+  color: #f3f4f6;
+  margin-bottom: 32rem;
+  border: none;
+}
+.field__textarea {
+  display: block;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 256%;
+  color: #f3f4f6;
+  resize: vertical;
+  max-width: 540rem;
+  min-height: 166rem;
+  border: none;
+}
+.field__input::placeholder {
+  color: #b8bcca;
+}
