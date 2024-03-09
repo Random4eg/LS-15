@@ -1,20 +1,39 @@
 .welcome {
-  padding: 96rem;
   &__container {
     display: flex;
     gap: 199rem;
   }
+  @media (max-width: $desktop-small) {
+    flex-direction: column;
+  }
+  &__box {
+    margin: 178rem 0rem;
+  }
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 169%;
+    color: #eab308;
+  }
+  h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 42rem;
+    line-height: 152%;
+    color: #f3f4f6;
+  }
+
+  &__desc {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 169%;
+    color: #6b7280;
+    margin-bottom: 40rem;
+  }
 
   &__img {
+    margin: 98rem 0rem;
   }
-}
-.bg-dark {
-}
-.container {
-}
-.title {
-}
-.desc {
-}
-.btn {
 }

@@ -21,6 +21,9 @@
   gap: 223rem;
   margin-bottom: 96rem;
 }
+@media (max-width: $desktop-small) {
+  flex: none;
+}
 .contact-info {
   margin-top: 56rem;
   margin-bottom: 56rem;

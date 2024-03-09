@@ -1,17 +1,41 @@
 .header {
   &__container {
+    padding: 16rem;
+    display: flex;
+    gap: 369rem;
+    justify-content: center;
+  }
+  @media (max-width: $desktop-small) {
+    flex-direction: column;
   }
 
   &__logo {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24rem;
+    color: #fff;
+  }
+  span {
+    color: #eab308;
   }
 
   &__nav {
   }
 
   &__ul {
+    display: flex;
+    gap: 27rem;
   }
 
   &__li {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16rem;
+    text-transform: uppercase;
+    color: #9ca3af;
+  }
+  &__li:hover {
+    color: #fff;
   }
 
   &__a {

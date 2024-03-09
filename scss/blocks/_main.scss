@@ -1,39 +1,29 @@
 .main {
-  &__img {
-  }
-
   &__box {
     display: flex;
     gap: 89rem;
   }
-}
-.container {
-}
-.title {
-}
-.desc {
-}
-.btn {
-}
-.main {
-  &__box {
-    display: flex;
-    gap: 89rem;
+  @media (max-width: $desktop-small) {
+    flex-direction: column;
+  }
+  &__desc {
+    max-width: 509rem;
+    text-align: left;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 169%;
+    color: #6b7280;
+    margin-bottom: 40rem;
   }
 
   &__img {
+    max-width: 475rem;
     margin: 98rem 0rem;
   }
 
   &__about {
+    text-align: left;
     margin: 178rem 0rem;
   }
-}
-.container {
-}
-.title {
-}
-.desc {
-}
-.btn {
 }

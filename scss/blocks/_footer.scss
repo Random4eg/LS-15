@@ -7,6 +7,9 @@
     justify-content: center;
     margin-bottom: 56rem;
   }
+  @media (max-width: $desktop-small) {
+    flex-direction: column;
+  }
   &__link:hover {
   }
 }
